@@ -1,0 +1,65 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 140,
+    "fields": {
+      "name": "Смартфоны",
+      "description": "Средство связи"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 141,
+    "fields": {
+      "name": "Телевизоры",
+      "description": "Различные развлечения"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 142,
+    "fields": {
+      "name": "Пылесосы",
+      "description": "Для уборки в доме"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 27,
+    "fields": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Новинка на рынке",
+      "photo": "",
+      "category": 140,
+      "price": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 28,
+    "fields": {
+      "name": "Samsung",
+      "description": "Различные модели",
+      "photo": "",
+      "category": 141,
+      "price": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 29,
+    "fields": {
+      "name": "Braun",
+      "description": "Новое слово в уборке",
+      "photo": "",
+      "category": 142,
+      "price": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  }
+]
